@@ -874,7 +874,7 @@ body {
     fill: transparent;
 }
 
-.custom-span.checked {
+.custom-input:checked+.custom-label .custom-span {
     background-color: #404bbf;
     border: none;
     fill:#F4F4FD;
@@ -885,7 +885,7 @@ body {
     text-decoration: none;
 }
 
-.custom-input:focus+.custom-label .custom-span {
+.custom-input:focus+.custom-label .custom-svg {
     fill: #4d5ae5;
 }
 

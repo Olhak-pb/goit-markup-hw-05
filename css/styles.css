@@ -611,11 +611,11 @@ body {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.cancel-button:hover .cencel-icon {
+.cancel-button:hover .cancel-icon {
     fill: #ffffff;
 }
 
-.cancel-button:focus .cencel-icon {
+.cancel-button:focus .cancel-icon {
     fill: #ffffff;
 }
 
@@ -875,15 +875,20 @@ body {
 }
 
 .custom-span.checked {
-    background-color: var(--checked-bg-color, #404bbf);
+    background-color: #404bbf;
     border: none;
-    fill: var(--checked-fill-color, #f4f4fd);
+    fill:#F4F4FD;
 }
 
 .custom-link {
     color: var(--link-color, #4d5ae5);
     text-decoration: none;
 }
+
+.custom-input:focus+.custom-label .custom-span {
+    fill: #4d5ae5;
+}
+
 .modal-button {
     display: block;
     margin:auto;

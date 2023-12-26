@@ -669,6 +669,10 @@ body {
 .modal-input-div:hover .input-icon {
     fill: #4D5AE5;
 }
+
+.modal-input-div:focus .input-icon {
+    fill: #4D5AE5;
+}
     
 
 .input-icon {

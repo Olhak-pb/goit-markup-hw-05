@@ -452,7 +452,7 @@
     </footer>
     <div class="modal">
         <div class="modal-div">
-            <button class="modal-button" type="button">
+            <button class="cancel-button" type="button">
                 <svg class="cancel-icon" width="8" height="8">
                   <use href="./images/icons.svg#icon-cancel"></use>
                 </svg>
@@ -493,15 +493,18 @@
                     <textarea class="text-area" name="user-comment" id="user-comment" cols="30" rows="10" placeholder="Text input"></textarea>
                 </div>
                 <div class="user-privacy">
-                    <input class="checkbox" type="checkbox" id="user-privacy" value="true" name="user-privacy" visually-hidden>
+                    <input class="checkbox" type="checkbox" id="user-privacy" value="true" name="user-privacy">
                     <label class="accept" for="user-privacy">I accept the terms and conditions of the<span class="privacy-policy">
-                        <svg class="polici-icon" class="" width="10" height="8">
-                          <use href="./images/icons.svg#icon-Checkbox"></use>
+                        <svg class="visually-hidden" class="" width="10" height="8">
+                          <use class="visually-hidden" href="./images/icons.svg#icon-Checkbox"></use>
                         </svg>
                         </span>
                         <a class="policy-text" href="">Privacy Policy</a>
                     </label>
                 </div>
+                <button class="modal-button">
+
+                </button>
             </form>
         </div>
     </div>

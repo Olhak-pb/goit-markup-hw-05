@@ -740,6 +740,10 @@ body {
     color: #4d5ae5
 } */
 
+.user-privacy {
+    margin-bottom: 24px;
+}
+
 .form-agreement {
     display: block;
     margin-bottom: 40px;

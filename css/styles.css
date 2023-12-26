@@ -666,11 +666,11 @@ body {
     border-color: #4D5AE5;
 }
 
-.modal-input:hover .input-icon {
+.modal-input:hover + .input-icon {
     fill: #4D5AE5;
 }
 
-.modal-input:focus .input-icon {
+.modal-input:focus + .input-icon {
     fill: #4D5AE5;
 }
     

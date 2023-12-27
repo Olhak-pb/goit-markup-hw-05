@@ -452,7 +452,7 @@
     </footer>
     <div class="modal">
         <div class="modal-div">
-            <button class="cancel-button" type="button">
+            <button class="cancel-button" type="button" aria-label="Modal close button">
                 <svg class="cancel-icon" width="8" height="8">
                   <use href="./images/icons.svg#icon-cancel"></use>
                 </svg>
@@ -492,18 +492,18 @@
                     <label class="modal-label" for="user-comment">Comment</label>
                     <textarea class="text-area" name="user-comment" id="user-comment" cols="30" rows="10" placeholder="Text input"></textarea>
                 </div>
-                <div class="custom-div">
-                    <input id="user-privacy" class="custom-input visually-hidden" type="checkbox" value="true" name="user-privacy">
-                    <label for="user-privacy" class="custom-label">
-                        I accept the terms and conditions of the
-                        <span class="custom-span">
-                            <svg width="10" height="8" class="custom-svg">
-                                <use href="./images/sprite.svg#icon-check"></use>
-                            </svg>
-                        </span>
-                        <a href="#" class="custom-link">Privacy Policy</a>
-                    </label>
-                </div>
+
+                <!-- Checkbox -->
+                    <div class="check-box">
+                        <input class="item-chec visually-hidden" value="true" type="checkbox" name="user-privacy" id="user-privacy" />
+                        <label class="form-label-checkbox" for="user-privacy">
+                            <span class="checkbox-icon-box">
+                                <svg class="checkbox-icon" width="10" height="8">
+                                    <use href="./images/icons.svg#icon-check"></use>
+                                </svg> </span>I accept the terms and conditions of the
+                            <a href="" class="label-checkbox-link">Privacy Policy</a>
+                        </label>
+                    </div> 
                 <button class="modal-button">
                     Send
                 </button>
